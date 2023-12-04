@@ -1,5 +1,5 @@
 # Ensemble Kalman Filters with Resampling
-This repository contains codes to reproduce all the data and figures presented in 'Ensemble Kalman Filters with Resampling' by Omar Al Ghattas, Jiajun Bao, and Daniel Sanz-Alonso.
+This repository contains codes to reproduce all the data and figures presented in 'Ensemble Kalman Filters with Resampling' by Omar Al-Ghattas, Jiajun Bao, and Daniel Sanz-Alonso.
 
 ## Paper Abstract
 Filtering is concerned with online estimation of the state of a dynamical system from partial and noisy observations. In applications where the state of the system is high dimensional, ensemble Kalman filters are often the method of choice. These algorithms rely on an ensemble of interacting particles to sequentially estimate the state as new observations become available. Despite the practical success of ensemble Kalman filters, theoretical understanding is hindered by the intricate dependence structure of the interacting particles. This paper investigates ensemble Kalman filters that incorporate an additional resampling step to break the dependency between particles. The new algorithm is amenable to a theoretical analysis that extends and improves upon those available for filters without resampling, while also performing well in numerical examples.
